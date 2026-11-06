@@ -6,7 +6,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/grabber")
-@CrossOrigin(origins = "http://127.0.0.1:5500")
+@CrossOrigin(origins = "https://grapper-tester.vercel.app")
 public class GrabberController {
 
     @PostMapping("/receive")
